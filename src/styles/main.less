@@ -14,7 +14,8 @@
 }
 
 body {
-    background-color: #colors[background-color];
+    background-color: #colors[background];
+    background: #colors[backgroundr];
     color: #colors[textColor];
 }
 
@@ -47,6 +48,11 @@ header {
         display: block;
         margin: 0 auto 24px;
         border-radius: 50%;
+        max-width: 100px;
+        max-height: 100px;
+        width: 100%;
+        height: 100%;
+
     }
 }
 
@@ -82,6 +88,7 @@ header {
 
         img {
             transition: all ease .3s;
+            transform: scale(1.3);
 
             &:hover {
                 transform: scale(1.3);

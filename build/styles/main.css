@@ -9,6 +9,7 @@
 }
 body {
   background-color: #053677;
+  background: radial-gradient(circle, #053677 39%, #053473 41%, #000000 100%);
   color: #f5f6fa;
 }
 li {
@@ -40,6 +41,10 @@ header .profile-avatar {
   display: block;
   margin: 0 auto 24px;
   border-radius: 50%;
+  max-width: 100px;
+  max-height: 100px;
+  width: 100%;
+  height: 100%;
 }
 .profile-bio {
   text-align: center;
@@ -69,6 +74,7 @@ header .profile-avatar {
 }
 .social-links li img {
   transition: all ease 0.3s;
+  transform: scale(1.3);
 }
 .social-links li img:hover {
   transform: scale(1.3);
